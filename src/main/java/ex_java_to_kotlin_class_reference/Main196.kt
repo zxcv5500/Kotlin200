@@ -5,4 +5,7 @@ fun main(args: Array<String>) {
     val str: String = "2018년"
 
     JavaClass.printClassInfo(number::class.java)
+    JavaClass.printClassInfo(str::class.java)
+    JavaClass.printClassInfo(Double::class.java)
+
 }
